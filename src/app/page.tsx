@@ -40,7 +40,7 @@ export default function HomePage() {
             </div>
             <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f6a9/512.gif" alt="🚩" width="64" height="64" />
           </div>
-          <div className='grid grid-cols-2 justify-between gap-2 bg-dark5 rounded-2xl p-8'>
+          <div className='grid grid-cols-1 md:grid-cols-2 justify-between gap-2 bg-dark5 rounded-2xl p-4 md:p-8'>
             <div className='flex flex-col'>
               <div className='text-3xl md:text-4xl font-black text-white pb-2' style={{ textShadow: "2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000" }}><span className='rounded-l-2xl pb-1 pl-2' style={{ backgroundColor: "#FED83D" }}>Хау</span><span className='pb-1 bg-white'>сто</span><span className='pb-1 rounded-r-2xl pr-2' style={{ backgroundColor: "#80C71F" }}>ния</span></div>
               <div className='text-3xl md:text-4xl font-black'>Главный торговый регион</div>
@@ -78,7 +78,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className='flex flex-col w-full gap-8 mt-12'>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2'>
               <div className='flex justify-center items-center select-none'>
                 <div className='bg-dark5 rounded-2xl p-4 text-6xl'>🎨</div>
               </div>
@@ -87,16 +87,19 @@ export default function HomePage() {
                 <p className='text-lg'>Поставка красителей и цветных блоков в Хаустонии является одним из ключевых видов деятельности в городе. Эта отрасль обеспечивает всю страну необходимыми материалами для создания различных проектов</p>
               </div>
             </div>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2'>
+              <div className='flex md:hidden justify-center items-center select-none'>
+                <div className='bg-dark5 rounded-2xl p-4 text-6xl'>⛏️</div>
+              </div>
               <div className='flex flex-col gap-4'>
                 <h3>Шахтерный центр</h3>
                 <p className='text-lg'>Шахтерный центр Хаустонии играет важную роль в добыче полезных ископаемых и обеспечении страны всем необходимым. Он способствует экономическому развитию региона и страны</p>
               </div>
-              <div className='flex justify-center items-center select-none'>
+              <div className='hidden md:flex justify-center items-center select-none'>
                 <div className='bg-dark5 rounded-2xl p-4 text-6xl'>⛏️</div>
               </div>
             </div>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2'>
               <div className='flex justify-center items-center select-none'>
                 <div className='bg-dark5 rounded-2xl p-4 text-6xl'>🛍️</div>
               </div>
@@ -105,16 +108,19 @@ export default function HomePage() {
                 <p className='text-lg'>Большая торговая зона Хаустонии привлекает множество покупателей своим разнообразием магазинов, ресторанов и развлекательных заведений. Это место, где можно совершить покупки, провести время с друзьями, а также насладиться атмосферой города.</p>
               </div>
             </div>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2'>
+              <div className='flex md:hidden justify-center items-center select-none'>
+                <div className='bg-dark5 rounded-2xl p-4 text-6xl'>🌳</div>
+              </div>
               <div className='flex flex-col gap-4'>
                 <h3>Лесопилка</h3>
                 <p className='text-lg'>Лесопилка вблизи Хаустонии является ключевым звеном лесопромышленного комплекса региона. Здесь проводится рубка древесины, ее переработка и поставка на рынок для дальнейшего использования в строительстве и производстве</p>
               </div>
-              <div className='flex justify-center items-center select-none'>
+              <div className='hidden md:flex justify-center items-center select-none'>
                 <div className='bg-dark5 rounded-2xl p-4 text-6xl'>🌳</div>
               </div>
             </div>
-            <div className='grid grid-cols-2'>
+            <div className='grid md:grid-cols-2'>
               <div className='flex justify-center items-center select-none'>
                 <div className='bg-dark5 rounded-2xl p-4 text-6xl'>📽️</div>
               </div>
@@ -123,7 +129,7 @@ export default function HomePage() {
                 <p className='text-lg'>Кино в Хаустонии представляет собой важное развлекательное направление, которое приносит горожанам и посетителям массу удовольствия. Открытие кинотеатра поможет расширить культурные возможности города и предложить новые формы досуга для всех желающих</p>
               </div>
             </div>
-            <div className='grid grid-cols-2' id='faq'>
+            <div className='grid md:grid-cols-2' id='faq'>
               <div className='flex flex-col rounded-2xl gap-2'>
                 <div className='bg-dark2 hover:bg-dark4 cursor-pointer p-4 rounded-2xl flex items-center justify-between'>
                   <h3 className='flex justify-between items-center w-full'>Как стать жителем Хаустонии? <FaArrowDown /></h3>
